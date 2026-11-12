@@ -1,0 +1,1137 @@
+{
+ "tag": "Qwen3-1p7B",
+ "scheme": "kgw",
+ "N": 2000,
+ "R": 200,
+ "n_human": 11999,
+ "rows": [
+  {
+   "pool": "random edits (scattered)",
+   "delta": 0.1,
+   "sigma_max": 0.0,
+   "pi": 0.05,
+   "with_replacement": false,
+   "multi": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0074,
+     0.2464
+    ]
+   },
+   "t005": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0107,
+     0.5306
+    ]
+   },
+   "calib": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0,
+     0.332
+    ]
+   }
+  },
+  {
+   "pool": "random edits (scattered)",
+   "delta": 0.1,
+   "sigma_max": 0.0,
+   "pi": 0.2,
+   "with_replacement": false,
+   "multi": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.1493,
+     0.4711
+    ]
+   },
+   "t005": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.155,
+     0.9847
+    ]
+   },
+   "calib": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.1284,
+     0.5301
+    ]
+   }
+  },
+  {
+   "pool": "random edits (scattered)",
+   "delta": 0.2,
+   "sigma_max": 0.0,
+   "pi": 0.05,
+   "with_replacement": false,
+   "multi": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0076,
+     0.1821
+    ]
+   },
+   "t005": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0112,
+     0.3164
+    ]
+   },
+   "calib": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0,
+     0.2486
+    ]
+   }
+  },
+  {
+   "pool": "random edits (scattered)",
+   "delta": 0.2,
+   "sigma_max": 0.0,
+   "pi": 0.2,
+   "with_replacement": false,
+   "multi": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.1494,
+     0.3777
+    ]
+   },
+   "t005": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.1545,
+     0.7451
+    ]
+   },
+   "calib": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.1273,
+     0.4323
+    ]
+   }
+  },
+  {
+   "pool": "random edits (span)",
+   "delta": 0.1,
+   "sigma_max": 0.0,
+   "pi": 0.05,
+   "with_replacement": false,
+   "multi": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0049,
+     0.237
+    ]
+   },
+   "t005": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0089,
+     0.5177
+    ]
+   },
+   "calib": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0,
+     0.3168
+    ]
+   }
+  },
+  {
+   "pool": "random edits (span)",
+   "delta": 0.1,
+   "sigma_max": 0.0,
+   "pi": 0.2,
+   "with_replacement": false,
+   "multi": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.1419,
+     0.4783
+    ]
+   },
+   "t005": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.1434,
+     0.9854
+    ]
+   },
+   "calib": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.1242,
+     0.5461
+    ]
+   }
+  },
+  {
+   "pool": "random edits (span)",
+   "delta": 0.2,
+   "sigma_max": 0.0,
+   "pi": 0.05,
+   "with_replacement": false,
+   "multi": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0045,
+     0.1772
+    ]
+   },
+   "t005": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0093,
+     0.3039
+    ]
+   },
+   "calib": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0,
+     0.24
+    ]
+   }
+  },
+  {
+   "pool": "random edits (span)",
+   "delta": 0.2,
+   "sigma_max": 0.0,
+   "pi": 0.2,
+   "with_replacement": false,
+   "multi": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.1408,
+     0.3778
+    ]
+   },
+   "t005": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.1436,
+     0.7099
+    ]
+   },
+   "calib": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.1189,
+     0.4338
+    ]
+   }
+  },
+  {
+   "pool": "substitutions",
+   "delta": 0.1,
+   "sigma_max": 0.0,
+   "pi": 0.05,
+   "with_replacement": false,
+   "multi": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0052,
+     0.246
+    ]
+   },
+   "t005": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0087,
+     0.5171
+    ]
+   },
+   "calib": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0,
+     0.3339
+    ]
+   }
+  },
+  {
+   "pool": "substitutions",
+   "delta": 0.1,
+   "sigma_max": 0.0,
+   "pi": 0.2,
+   "with_replacement": false,
+   "multi": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.1436,
+     0.4743
+    ]
+   },
+   "t005": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.1469,
+     0.9805
+    ]
+   },
+   "calib": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.1208,
+     0.5336
+    ]
+   }
+  },
+  {
+   "pool": "substitutions",
+   "delta": 0.1,
+   "sigma_max": 0.05,
+   "pi": 0.05,
+   "with_replacement": false,
+   "multi": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0056,
+     0.5403
+    ]
+   },
+   "t005": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0096,
+     1.0
+    ]
+   },
+   "calib": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0,
+     0.6417
+    ]
+   }
+  },
+  {
+   "pool": "substitutions",
+   "delta": 0.1,
+   "sigma_max": 0.05,
+   "pi": 0.2,
+   "with_replacement": false,
+   "multi": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.1441,
+     0.9123
+    ]
+   },
+   "t005": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.1478,
+     1.0
+    ]
+   },
+   "calib": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.1221,
+     0.9413
+    ]
+   }
+  },
+  {
+   "pool": "substitutions",
+   "delta": 0.2,
+   "sigma_max": 0.0,
+   "pi": 0.05,
+   "with_replacement": false,
+   "multi": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0058,
+     0.1799
+    ]
+   },
+   "t005": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0102,
+     0.3078
+    ]
+   },
+   "calib": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0,
+     0.249
+    ]
+   }
+  },
+  {
+   "pool": "substitutions",
+   "delta": 0.2,
+   "sigma_max": 0.0,
+   "pi": 0.2,
+   "with_replacement": false,
+   "multi": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.1432,
+     0.3766
+    ]
+   },
+   "t005": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.1469,
+     0.7163
+    ]
+   },
+   "calib": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.1211,
+     0.4321
+    ]
+   }
+  },
+  {
+   "pool": "substitutions",
+   "delta": 0.2,
+   "sigma_max": 0.05,
+   "pi": 0.05,
+   "with_replacement": false,
+   "multi": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0059,
+     0.2799
+    ]
+   },
+   "t005": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0095,
+     0.6425
+    ]
+   },
+   "calib": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0,
+     0.3701
+    ]
+   }
+  },
+  {
+   "pool": "substitutions",
+   "delta": 0.2,
+   "sigma_max": 0.05,
+   "pi": 0.2,
+   "with_replacement": false,
+   "multi": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.144,
+     0.5289
+    ]
+   },
+   "t005": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.1468,
+     0.9975
+    ]
+   },
+   "calib": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.1207,
+     0.5934
+    ]
+   }
+  },
+  {
+   "pool": "near-floor",
+   "delta": 0.1,
+   "sigma_max": 0.0,
+   "pi": 0.05,
+   "with_replacement": false,
+   "multi": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0038,
+     0.2477
+    ]
+   },
+   "t005": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0072,
+     0.505
+    ]
+   },
+   "calib": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0,
+     0.3327
+    ]
+   }
+  },
+  {
+   "pool": "near-floor",
+   "delta": 0.1,
+   "sigma_max": 0.0,
+   "pi": 0.2,
+   "with_replacement": false,
+   "multi": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.141,
+     0.4783
+    ]
+   },
+   "t005": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.1369,
+     0.9764
+    ]
+   },
+   "calib": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.1204,
+     0.5438
+    ]
+   }
+  },
+  {
+   "pool": "near-floor",
+   "delta": 0.2,
+   "sigma_max": 0.0,
+   "pi": 0.05,
+   "with_replacement": false,
+   "multi": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0037,
+     0.1819
+    ]
+   },
+   "t005": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0073,
+     0.3009
+    ]
+   },
+   "calib": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0001,
+     0.2486
+    ]
+   }
+  },
+  {
+   "pool": "near-floor",
+   "delta": 0.2,
+   "sigma_max": 0.0,
+   "pi": 0.2,
+   "with_replacement": false,
+   "multi": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.1421,
+     0.3847
+    ]
+   },
+   "t005": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.1362,
+     0.6833
+    ]
+   },
+   "calib": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.1224,
+     0.4462
+    ]
+   }
+  },
+  {
+   "pool": "short",
+   "delta": 0.1,
+   "sigma_max": 0.0,
+   "pi": 0.05,
+   "with_replacement": false,
+   "multi": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0325,
+     0.2065
+    ]
+   },
+   "t005": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0311,
+     0.3362
+    ]
+   },
+   "calib": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0044,
+     0.3016
+    ]
+   }
+  },
+  {
+   "pool": "short",
+   "delta": 0.1,
+   "sigma_max": 0.0,
+   "pi": 0.2,
+   "with_replacement": false,
+   "multi": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.1567,
+     0.343
+    ]
+   },
+   "t005": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.1422,
+     0.4659
+    ]
+   },
+   "calib": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0784,
+     0.4171
+    ]
+   }
+  },
+  {
+   "pool": "short",
+   "delta": 0.2,
+   "sigma_max": 0.0,
+   "pi": 0.05,
+   "with_replacement": false,
+   "multi": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0328,
+     0.1585
+    ]
+   },
+   "t005": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0315,
+     0.221
+    ]
+   },
+   "calib": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0078,
+     0.2287
+    ]
+   }
+  },
+  {
+   "pool": "short",
+   "delta": 0.2,
+   "sigma_max": 0.0,
+   "pi": 0.2,
+   "with_replacement": false,
+   "multi": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.1562,
+     0.2976
+    ]
+   },
+   "t005": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.1428,
+     0.3596
+    ]
+   },
+   "calib": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0766,
+     0.3522
+    ]
+   }
+  },
+  {
+   "pool": "paraphrase",
+   "delta": 0.1,
+   "sigma_max": 0.0,
+   "pi": 0.05,
+   "with_replacement": false,
+   "multi": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0,
+     0.208
+    ]
+   },
+   "t005": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0,
+     0.3566
+    ]
+   },
+   "calib": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0,
+     0.2946
+    ]
+   }
+  },
+  {
+   "pool": "paraphrase",
+   "delta": 0.1,
+   "sigma_max": 0.0,
+   "pi": 0.2,
+   "with_replacement": true,
+   "multi": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0244,
+     0.3777
+    ]
+   },
+   "t005": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0009,
+     0.517
+    ]
+   },
+   "calib": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0045,
+     0.4475
+    ]
+   }
+  },
+  {
+   "pool": "paraphrase",
+   "delta": 0.2,
+   "sigma_max": 0.0,
+   "pi": 0.05,
+   "with_replacement": false,
+   "multi": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0001,
+     0.1555
+    ]
+   },
+   "t005": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0,
+     0.2117
+    ]
+   },
+   "calib": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0,
+     0.2236
+    ]
+   }
+  },
+  {
+   "pool": "paraphrase",
+   "delta": 0.2,
+   "sigma_max": 0.0,
+   "pi": 0.2,
+   "with_replacement": true,
+   "multi": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0219,
+     0.2746
+    ]
+   },
+   "t005": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0007,
+     0.3425
+    ]
+   },
+   "calib": {
+    "coverage": 1.0,
+    "CI95": [
+     0.982,
+     1.0
+    ],
+    "mean": [
+     0.0017,
+     0.3311
+    ]
+   }
+  }
+ ],
+ "pool_sizes": {
+  "random edits (scattered)": 2016,
+  "random edits (span)": 2016,
+  "substitutions": 2016,
+  "near-floor": 2016,
+  "short": 1986,
+  "paraphrase": 299
+ }
+}

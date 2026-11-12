@@ -1,0 +1,307 @@
+{
+ "tag": "Qwen3-1p7B",
+ "scheme": "gumbel",
+ "eps_min": 0.3,
+ "sigma_budgets": [
+  0.05,
+  0.15
+ ],
+ "R": 200,
+ "N": 4000,
+ "design": "iid labels, watermarked docs sampled with replacement from the pool, target pi_cond; human p-values exactly U(0,1) (Assumption 1) with human lengths from the pool unless --null pool",
+ "null": "pool",
+ "class_check": {
+  "nearfloor_d0.1_s0.0": [
+   null,
+   {
+    "N": 153,
+    "min_ratio": 1.051,
+    "t_at_min_ratio": 0.9600000000000001,
+    "min_ratio_lcb": -3.916,
+    "min_gap": 0.002,
+    "t_at_min": 0.99,
+    "min_gap_lcb": -0.124,
+    "min_gap_t_le_0.5": 0.213
+   },
+   {
+    "N": 1863,
+    "min_ratio": 1.089,
+    "t_at_min_ratio": 0.97,
+    "min_ratio_lcb": -0.212,
+    "min_gap": 0.001,
+    "t_at_min": 0.99,
+    "min_gap_lcb": -0.035,
+    "min_gap_t_le_0.5": 0.164
+   }
+  ],
+  "nearfloor_d0.2_s0.0": [
+   null,
+   {
+    "N": 153,
+    "min_ratio": 0.895,
+    "t_at_min_ratio": 0.9600000000000001,
+    "min_ratio_lcb": -3.364,
+    "min_gap": -0.004,
+    "t_at_min": 0.9600000000000001,
+    "min_gap_lcb": -0.129,
+    "min_gap_t_le_0.5": 0.115
+   },
+   {
+    "N": 1863,
+    "min_ratio": 1.013,
+    "t_at_min_ratio": 0.97,
+    "min_ratio_lcb": -0.197,
+    "min_gap": 0.0,
+    "t_at_min": 0.99,
+    "min_gap_lcb": -0.036,
+    "min_gap_t_le_0.5": 0.068
+   }
+  ],
+  "short_d0.1_s0.0": [
+   {
+    "N": 1903,
+    "min_ratio": 1.535,
+    "t_at_min_ratio": 0.9600000000000001,
+    "min_ratio_lcb": 0.174,
+    "min_gap": 0.003,
+    "t_at_min": 0.99,
+    "min_gap_lcb": -0.033,
+    "min_gap_t_le_0.5": 0.313
+   },
+   null,
+   null
+  ],
+  "short_d0.2_s0.0": [
+   {
+    "N": 1903,
+    "min_ratio": 1.175,
+    "t_at_min_ratio": 0.97,
+    "min_ratio_lcb": -0.214,
+    "min_gap": 0.001,
+    "t_at_min": 0.99,
+    "min_gap_lcb": -0.034,
+    "min_gap_t_le_0.5": 0.229
+   },
+   null,
+   null
+  ]
+ },
+ "coverage": [
+  {
+   "pool": "nearfloor",
+   "pi": 0.05,
+   "delta": 0.1,
+   "sigma": 0.0,
+   "coverage": 0.995,
+   "coverage_CI95": [
+    0.972,
+    1.0
+   ],
+   "mean_target": 0.05,
+   "mean_L": 0.0301,
+   "mean_U": 0.1443,
+   "population_U": 0.053,
+   "one_threshold_coverage": 1.0,
+   "one_threshold_mean_L": 0.0324,
+   "one_threshold_mean_U": 0.3003
+  },
+  {
+   "pool": "nearfloor",
+   "pi": 0.05,
+   "delta": 0.2,
+   "sigma": 0.0,
+   "coverage": 0.985,
+   "coverage_CI95": [
+    0.957,
+    0.997
+   ],
+   "mean_target": 0.05,
+   "mean_L": 0.0301,
+   "mean_U": 0.1108,
+   "population_U": 0.0499,
+   "one_threshold_coverage": 1.0,
+   "one_threshold_mean_L": 0.0328,
+   "one_threshold_mean_U": 0.167
+  },
+  {
+   "pool": "nearfloor",
+   "pi": 0.2,
+   "delta": 0.1,
+   "sigma": 0.0,
+   "coverage": 0.995,
+   "coverage_CI95": [
+    0.972,
+    1.0
+   ],
+   "mean_target": 0.1999,
+   "mean_L": 0.1713,
+   "mean_U": 0.3664,
+   "population_U": 0.2121,
+   "one_threshold_coverage": 1.0,
+   "one_threshold_mean_L": 0.1715,
+   "one_threshold_mean_U": 0.9767
+  },
+  {
+   "pool": "nearfloor",
+   "pi": 0.2,
+   "delta": 0.2,
+   "sigma": 0.0,
+   "coverage": 1.0,
+   "coverage_CI95": [
+    0.982,
+    1.0
+   ],
+   "mean_target": 0.2,
+   "mean_L": 0.1698,
+   "mean_U": 0.2914,
+   "population_U": 0.1998,
+   "one_threshold_coverage": 1.0,
+   "one_threshold_mean_L": 0.1706,
+   "one_threshold_mean_U": 0.5592
+  },
+  {
+   "pool": "nearfloor",
+   "pi": 0.5,
+   "delta": 0.1,
+   "sigma": 0.0,
+   "coverage": 1.0,
+   "coverage_CI95": [
+    0.982,
+    1.0
+   ],
+   "mean_target": 0.4999,
+   "mean_L": 0.4612,
+   "mean_U": 0.772,
+   "population_U": 0.5302,
+   "one_threshold_coverage": 1.0,
+   "one_threshold_mean_L": 0.4574,
+   "one_threshold_mean_U": 1.0
+  },
+  {
+   "pool": "nearfloor",
+   "pi": 0.5,
+   "delta": 0.2,
+   "sigma": 0.0,
+   "coverage": 1.0,
+   "coverage_CI95": [
+    0.982,
+    1.0
+   ],
+   "mean_target": 0.5,
+   "mean_L": 0.4612,
+   "mean_U": 0.6383,
+   "population_U": 0.4994,
+   "one_threshold_coverage": 1.0,
+   "one_threshold_mean_L": 0.4572,
+   "one_threshold_mean_U": 1.0
+  },
+  {
+   "pool": "short",
+   "pi": 0.05,
+   "delta": 0.1,
+   "sigma": 0.0,
+   "coverage": 0.995,
+   "coverage_CI95": [
+    0.972,
+    1.0
+   ],
+   "mean_target": 0.0495,
+   "mean_L": 0.0427,
+   "mean_U": 0.1133,
+   "population_U": 0.0503,
+   "one_threshold_coverage": 1.0,
+   "one_threshold_mean_L": 0.0461,
+   "one_threshold_mean_U": 0.1093
+  },
+  {
+   "pool": "short",
+   "pi": 0.05,
+   "delta": 0.2,
+   "sigma": 0.0,
+   "coverage": 0.985,
+   "coverage_CI95": [
+    0.957,
+    0.997
+   ],
+   "mean_target": 0.0499,
+   "mean_L": 0.0432,
+   "mean_U": 0.0918,
+   "population_U": 0.0503,
+   "one_threshold_coverage": 1.0,
+   "one_threshold_mean_L": 0.0465,
+   "one_threshold_mean_U": 0.0835
+  },
+  {
+   "pool": "short",
+   "pi": 0.2,
+   "delta": 0.1,
+   "sigma": 0.0,
+   "coverage": 1.0,
+   "coverage_CI95": [
+    0.982,
+    1.0
+   ],
+   "mean_target": 0.1999,
+   "mean_L": 0.1839,
+   "mean_U": 0.2618,
+   "population_U": 0.2006,
+   "one_threshold_coverage": 1.0,
+   "one_threshold_mean_L": 0.1917,
+   "one_threshold_mean_U": 0.2697
+  },
+  {
+   "pool": "short",
+   "pi": 0.2,
+   "delta": 0.2,
+   "sigma": 0.0,
+   "coverage": 0.99,
+   "coverage_CI95": [
+    0.964,
+    0.999
+   ],
+   "mean_target": 0.2,
+   "mean_L": 0.184,
+   "mean_U": 0.2415,
+   "population_U": 0.2003,
+   "one_threshold_coverage": 1.0,
+   "one_threshold_mean_L": 0.1917,
+   "one_threshold_mean_U": 0.2391
+  },
+  {
+   "pool": "short",
+   "pi": 0.5,
+   "delta": 0.1,
+   "sigma": 0.0,
+   "coverage": 1.0,
+   "coverage_CI95": [
+    0.982,
+    1.0
+   ],
+   "mean_target": 0.5002,
+   "mean_L": 0.4716,
+   "mean_U": 0.5583,
+   "population_U": 0.5011,
+   "one_threshold_coverage": 1.0,
+   "one_threshold_mean_L": 0.485,
+   "one_threshold_mean_U": 0.5897
+  },
+  {
+   "pool": "short",
+   "pi": 0.5,
+   "delta": 0.2,
+   "sigma": 0.0,
+   "coverage": 1.0,
+   "coverage_CI95": [
+    0.982,
+    1.0
+   ],
+   "mean_target": 0.5003,
+   "mean_L": 0.4715,
+   "mean_U": 0.5367,
+   "population_U": 0.5003,
+   "one_threshold_coverage": 1.0,
+   "one_threshold_mean_L": 0.4847,
+   "one_threshold_mean_U": 0.5466
+  }
+ ]
+}

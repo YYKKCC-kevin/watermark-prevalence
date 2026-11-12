@@ -1,0 +1,43 @@
+{
+ "n": 500,
+ "N": 20000,
+ "pi": 0.2,
+ "assumed": [
+  0.3,
+  0.2
+ ],
+ "dict_size": 48,
+ "band": 0.009603227913199208,
+ "cases": [
+  {
+   "case": "in_class_varying_q",
+   "reps": 100,
+   "LP_coverage": 0.99,
+   "LP_mean_interval": [
+    0.1919,
+    0.2129
+   ],
+   "LP_min_hi": 0.1981,
+   "relaxed_coverage": 1.0,
+   "relaxed_mean_interval": [
+    0.1919,
+    0.2196
+   ]
+  },
+  {
+   "case": "least_favourable_Pstar",
+   "reps": 100,
+   "LP_coverage": 0.99,
+   "LP_mean_interval": [
+    0.1859,
+    0.209
+   ],
+   "LP_min_hi": 0.1996,
+   "relaxed_coverage": 1.0,
+   "relaxed_mean_interval": [
+    0.1827,
+    0.2128
+   ]
+  }
+ ]
+}

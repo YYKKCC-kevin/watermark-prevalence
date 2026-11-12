@@ -1,0 +1,141 @@
+{
+ "gamma": 0.5,
+ "b": 2.0,
+ "vertex_min_check": [
+  {
+   "delta": 0.1,
+   "LF_vertex_excess": 0.11892,
+   "min_random_excess": 0.11946,
+   "closed_form_hypergeom": 0.11892,
+   "vertex_is_min": true
+  },
+  {
+   "delta": 0.2,
+   "LF_vertex_excess": 0.16802,
+   "min_random_excess": 0.16802,
+   "closed_form_hypergeom": 0.16802,
+   "vertex_is_min": true
+  },
+  {
+   "delta": 0.3,
+   "LF_vertex_excess": 0.19232,
+   "min_random_excess": 0.19233,
+   "closed_form_hypergeom": 0.19232,
+   "vertex_is_min": true
+  },
+  {
+   "delta": 0.5,
+   "LF_vertex_excess": 0.20771,
+   "min_random_excess": 0.2079,
+   "closed_form_hypergeom": 0.20771,
+   "vertex_is_min": true
+  }
+ ],
+ "mc_check": {
+  "n": 200,
+  "eps_min": 0.3,
+  "delta": 0.2,
+  "mu_bar": 0.54621,
+  "ts": [
+   0.01,
+   0.05,
+   0.1,
+   0.5
+  ],
+  "null_cdf": [
+   0.0103,
+   0.0509,
+   0.0999,
+   0.5006
+  ],
+  "h_kgw": [
+   0.1537,
+   0.3678,
+   0.5099,
+   0.9046
+  ],
+  "h_mc_LF": [
+   0.1532,
+   0.3657,
+   0.5073,
+   0.9038
+  ]
+ },
+ "signal_vs_delta": [
+  {
+   "delta": 0.0,
+   "Delta_KGW_excess_green_prob": 0.0,
+   "Gumbel_mean_shift_eps1": 0.0
+  },
+  {
+   "delta": 0.01,
+   "Delta_KGW_excess_green_prob": 0.01702,
+   "Gumbel_mean_shift_eps1": 0.0483
+  },
+  {
+   "delta": 0.05,
+   "Delta_KGW_excess_green_prob": 0.06823,
+   "Gumbel_mean_shift_eps1": 0.16161
+  },
+  {
+   "delta": 0.1,
+   "Delta_KGW_excess_green_prob": 0.10901,
+   "Gumbel_mean_shift_eps1": 0.25524
+  },
+  {
+   "delta": 0.2,
+   "Delta_KGW_excess_green_prob": 0.15402,
+   "Gumbel_mean_shift_eps1": 0.37648
+  },
+  {
+   "delta": 0.5,
+   "Delta_KGW_excess_green_prob": 0.1904,
+   "Gumbel_mean_shift_eps1": 0.5
+  }
+ ],
+ "envelope_comparison": [
+  {
+   "n": 200,
+   "eps_min": 0.3,
+   "delta": 0.1,
+   "h_KGW(0.05)": 0.2357,
+   "h_Gumbel_lower(0.05)": 0.2597
+  },
+  {
+   "n": 200,
+   "eps_min": 0.3,
+   "delta": 0.2,
+   "h_KGW(0.05)": 0.3678,
+   "h_Gumbel_lower(0.05)": 0.4331
+  },
+  {
+   "n": 500,
+   "eps_min": 0.3,
+   "delta": 0.1,
+   "h_KGW(0.05)": 0.4279,
+   "h_Gumbel_lower(0.05)": 0.4685
+  },
+  {
+   "n": 500,
+   "eps_min": 0.3,
+   "delta": 0.2,
+   "h_KGW(0.05)": 0.6642,
+   "h_Gumbel_lower(0.05)": 0.7549
+  },
+  {
+   "n": 1000,
+   "eps_min": 0.3,
+   "delta": 0.1,
+   "h_KGW(0.05)": 0.6643,
+   "h_Gumbel_lower(0.05)": 0.7113
+  },
+  {
+   "n": 1000,
+   "eps_min": 0.3,
+   "delta": 0.2,
+   "h_KGW(0.05)": 0.8999,
+   "h_Gumbel_lower(0.05)": 0.9512
+  }
+ ],
+ "degenerate_delta0_h_kgw_0.05": 0.05
+}
