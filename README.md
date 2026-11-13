@@ -4,6 +4,8 @@ Assumption-indexed bounds on the share of watermarked documents in a corpus unde
 
 Kuancheng Ye, Department of Statistics, University of California, Irvine.
 
+Paper: [arXiv:2611.17035](https://arxiv.org/abs/2611.17035)
+
 ## Layout
 - `sim/` — theory computations and simulations (CPU only).
   - `envelope.py`, `certified.py`: Gumbel-max power envelope and its conservative lattice/FFT lower bound (`certified_envelope(n, eps_min, delta, ts, sigma=...)`).
@@ -41,6 +43,9 @@ If you use this code, please cite:
   title  = {Prevalence Bounds for Edited Watermarked Text: Power Envelopes and Calibration Sensitivity},
   author = {Ye, Kuancheng},
   year   = {2026},
-  note   = {arXiv preprint}
+  eprint = {2611.17035},
+  archivePrefix = {arXiv},
+  primaryClass  = {stat.ML},
+  url    = {https://arxiv.org/abs/2611.17035}
 }
 ```
